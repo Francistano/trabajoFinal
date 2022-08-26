@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.links{
+display: inline-block;
+list-style: none;
+}
+
+
+.nav {
+    background-color: rgb(238, 10, 10);
+    display: flex;
+    height: 90px;
+    border: 3px black solid;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul{
+    display: inline-block;
+    background-color: rgb(116, 19, 95);    
+}
+
+.nav ul li{
+    display: inline-block;
+    background-color: blanchedalmond;
+    padding: 5px;
+}    
+
+.nav ol {
+    display: inline-block;
+    
+    
+}
+
+
+    
+.mainLogo{
+    display: inline-block;
+    height: 87px;
+    border: 3px black solid;
+}
+
+
+.mainTitle {
+    display: inline-block;
+    margin: 20px;
+    bottom: 100px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1000%;
+    background-color: rgb(255, 0, 0);
+}
+
+.imgTitle{
+    display: inline-block;
+    margin: 10px;
+    width: 500px;
+    border: 3px black solid;
+
+}
+
+main p{
+    margin-left: 25px;
+    background-color: rgb(103, 103, 160);
+}
+
+.contact{
+    margin: 10px 30px;
+}
+
+.footer .contactLinks{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: rgb(127, 185, 51);
+}
+
+.footer a{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+    background-color: rgb(124, 72, 124);
+}
