@@ -4,40 +4,61 @@
     box-sizing: border-box;
 }
 
-.links{
-display: inline-block;
-list-style: none;
+.barColor {
+    background-color: black;
 }
 
-
-.nav {
-    background-color: rgb(238, 10, 10);
-    display: flex;
-    height: 90px;
-    border: 3px black solid;
-    justify-content: space-between;
-    align-items: center;
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.nav ul{
-    display: inline-block;
-    background-color: rgb(116, 19, 95);    
+a:hover {
+    color: #3e3eff;
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #ffffff;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
-.nav ul li{
-    display: inline-block;
-    background-color: blanchedalmond;
-    padding: 5px;
-}    
-
-.nav ol {
-    display: inline-block;
-    
-    
+.nav-link:hover {
+    color: #3e3eff;
+}
+.btn-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: #3e3eff;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-active-color: #3e3eff;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #000000;
+    --bs-btn-disabled-border-color: #000000;
+    --bs-btn-border-radius: 0;
 }
 
+.dropdown-menu {
+    background-color: #000000;
+    border-radius: 0;
+}
 
-    
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    color: #3e3eff;
+    background-color: #000000;
+}
+
 .mainLogo{
     display: inline-block;
     height: 87px;
